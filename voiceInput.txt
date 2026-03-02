@@ -112,9 +112,9 @@ const startRecording = async () => {
 
     console.log('=== 获取火山引擎Token 成功 ===')
     if (token) {
-      auth.api_resource_id = 'volc.bigasr.sauc.duration'
-      auth.api_app_key = appid
-      auth.api_access_key = `Jwt; ${token}`
+      // auth.api_resource_id = 
+      auth.api_app_key = 
+      auth.api_access_key = 
     }
     const fullUrl = buildFullUrl(
       `wss://openspeech.bytedance.com/api/v3/sauc/bigmodel`,
